@@ -1,0 +1,29 @@
+ /* medidas absolutas
+     cm, mm, in ( polegada), px, pt, pc- podem trazer diferenças entre dispositivos
+       medidas relativas
+       em( tamanho da letra atual), ex (altura x da fonte), rem(em mas relacionado ao ruth, o que está configurado no body) vw( porcentagem do espaço do display), vh( largura da view port), %
+       A recomendação da W3 é usar em e px.
+       16px é normalmente o tamanho da letra, 1em é 16px*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-size: 1em;
+    font-weight: 100-900;
+    background-color:  bisque;
+}
+   /* font-style: italic;
+    text-decoration: underline;*/
+    /*shorthand font
+    font-style-> font-weight-> font-size ->font-family*/
+     h1{
+         font:italic  lighter 2em serif
+     }
+
+    main{
+        background-color:antiquewhite ;
+        margin: auto;
+        margin-top: 50px;
+        width: 600px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px ;
+}

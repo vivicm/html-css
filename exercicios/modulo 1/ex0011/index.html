@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title> <link rel="shortcut icon" href="CV-Html-5 (1).ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagens dinâmicas.</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Vamos aprender a reproduzir um aúdio com HTML</h1>
+    <audio src="midia/Soul Food - Chris Haugen.mp3" controls autoplay></audio>
+    <p>Essa é uma música soul que gosto muito.</p>
+   <audio src="midia/Soul Food - Chris Haugen.mp3">
+   <source src="midia/Soul Food - Chris Haugen.mp3" type="audio/mpeg">
+   <source src="midia/Soul Food - Chris Haugen.ogg" type="audio/ogg">
+   <source src="midia/Soul Food - Chris Haugen.wav" type="audio/wav">
+   <p>Infelizmente o seu computador não foi capaz de tocar o aúdio. <a href="midia/Soul Food - Chris Haugen.mp3" target="_blank"> Clique aqui para baixar o arquivo.</a> </p>
+   </audio>
+</body>
+</html>

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.especial{
+    color: brown;
+}
+.especial::before{
+    content: '!!!';
+    color: plum ;
+}
+a{
+    color: rebeccapurple;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: blueviolet;
+}
+a:hover{
+    color: violet;
+    text-decoration: underline;
+}
+a:active{
+    color: palevioletred;
+}
+a::after{
+    content: '[link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: plum;
+}

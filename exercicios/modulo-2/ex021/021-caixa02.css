@@ -1,0 +1,68 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ADACB5;
+}
+header{
+    background-color: #D8D5DB;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 1px;
+    
+}
+h1{
+    color: #424861;
+}
+nav{
+    background-color:#8C8BA7;
+    padding: 2px;
+    text-decoration: none;
+    box-shadow: 7px 3px 20px 0px #4242508c;;
+}
+nav > a{
+    text-decoration: none;
+    color: black;
+}
+nav >a:hover{
+    text-decoration: underline;
+           
+}
+main{
+    background-color: #D8D5DB;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 1px;
+}
+article > h2 {
+    font-family: 'Pathway Gothic One', 'Times New Roman', Times, serif;
+}
+article{
+    background-color: #E6D9FF;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px;
+    border: 5px inset #807F9F;
+   border-radius: 10px 0px;
+   box-shadow: 7px 3px 20px 0px #4242508c;
+}
+article > aside {
+    background-color: #8C8BA7;
+   display: inline-block;
+  margin: 5px 20px;
+   
+}
+aside > p{
+    font-style: italic;
+    margin: 0px;
+}
+footer{
+    background-color: #D8D5DB;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 1px;
+}
+footer > p {
+            margin: 0px;
+
+}
+

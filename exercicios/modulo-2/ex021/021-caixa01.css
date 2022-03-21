@@ -1,0 +1,19 @@
+@charset "UTF-8";
+h1{
+    background-color: lightgray;
+    height: 20px;
+    width: 400px;
+    border: 10px solid gainsboro;
+
+    padding: 10px;
+    
+    margin: auto;
+
+    outline: 2px dashed gray;
+}
+a{
+    border: 2px solid gainsboro ;
+    display: block;
+    width: 400px;
+    margin: auto;
+}
