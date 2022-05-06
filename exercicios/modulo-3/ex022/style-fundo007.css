@@ -1,0 +1,17 @@
+@charset "UTF-8";
+#container{
+    position: relative;
+    height: 500px;
+    padding: 10px;
+    background-color: purple;
+    background-image: url('imagens/')
+}
+#conteudo{
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
