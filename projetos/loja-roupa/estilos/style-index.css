@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{
+    --fontelink:font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: blue;
+}
+header{
+    position: relative;
+    top: 20px;
+    margin: auto;
+    width: 50vw;
+    height: 100px;
+    background-color: #E3E3E3;
+}
+
+div#logo{
+    position: relative;
+    top: 10px;
+    left: 200px;
+    display: inline-block;
+}
+div#account{
+    position: relative;
+    top: 2px;
+    left: 250px;
+    display: inline-block;
+}
+div#shoping{
+    position: relative;
+    top: 2px;
+    left: 255px;
+    display: inline-block;
+}
+button{
+    padding: 2px;
+    border: none;
+    background-color: transparent;
+}
+hr{
+    background-color:#E3E3E3;
+}
