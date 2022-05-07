@@ -1,25 +1,23 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 :root{
-    --fontelink:font-family: 'Poppins', sans-serif;
+    --fontelink: 'Poppins', sans-serif;
 }
 *{
     margin: 0px;
     padding: 0px;
 }
-body{
-    background-color: blue;
-}
+
 header{
     position: relative;
     top: 20px;
     margin: auto;
-    width: 50vw;
+    width: 60vw;
     height: 100px;
     background-color: #E3E3E3;
 }
 
-div#logo{
+ div#logo{
     position: relative;
     top: 10px;
     left: 200px;
@@ -44,4 +42,10 @@ button{
 }
 hr{
     background-color:#E3E3E3;
+}
+a{
+
+}
+body{
+    background-color: blue;
 }
