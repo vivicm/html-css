@@ -8,43 +8,68 @@
     padding: 0px;
 }
 
-header{
+.top-main{
+    position: absolute;
+    margin-top: 10px;
+    margin: auto;
+    width: 1920px;
+    height: 10vh ;
+    background-color: #f1f1f1;
+    
+}
+.main-head{
     position: relative;
     top: 20px;
-    margin: auto;
-    width: 60vw;
-    height: 100px;
-    background-color: #E3E3E3;
+    left: 300px;
+    background-color: #f1f1f1;
+    width: 1200px;
 }
-
  div#logo{
     position: relative;
-    top: 10px;
-    left: 200px;
+    margin-top: 2px;
+    left: 400px;
     display: inline-block;
 }
 div#account{
     position: relative;
     top: 2px;
-    left: 250px;
+    left: 720px;
     display: inline-block;
 }
 div#shoping{
     position: relative;
     top: 2px;
-    left: 255px;
+    left: 730px;
     display: inline-block;
 }
 button{
-    padding: 2px;
     border: none;
     background-color: transparent;
 }
+button#pesquisa{
+    padding: 2px;
+    margin: 2px; 
+}
+button#shop{
+    position: relative;
+    left: 10px;
+    top: 10px;
+
+}
 hr{
     background-color:#E3E3E3;
+    width: 1128px;
 }
 a{
-
+    color: black;
+    text-decoration: underline;
+    font-family: var(--fontelink);
+    margin: 5px;
+    text-shadow: 1px 1px 0px #00000080;
+}
+a:hover{
+    color: darkgray;
+    font-size: 1.025em;
 }
 body{
     background-color: blue;
