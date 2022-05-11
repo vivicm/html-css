@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    border-collapse: separated;
+}
+
+tr.linha1{
+    background-color: gainsboro;
+}
+tr.linha2{
+    background-color: lightgray;
+}
+tr.linha3{
+    background-color: rgb(182, 181, 181);
+}
+tr.linha4{
+    background-color: darkgray ;
+}
+
+tr.linha5{
+    background-color: rgb(151, 150, 150);
+}
+tr.linha6{
+     background-color:gray ;
+}
+td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center; /* alinhamento horizontal, aceita as propriedades right left e center*/
+    vertical-align: bottom; /* alinhamento vertical, aceita as propriedades top middle e bottom*/
+}
