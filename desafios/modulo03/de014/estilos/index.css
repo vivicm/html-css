@@ -1,0 +1,19 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    border-collapse: collapse;
+    width: 200px;
+    height: 400px;
+}
+th, td{
+    border: 1px solid black;
+    text-align: center;
+}
+ thead > tr{
+    background-color: gainsboro;
+}
+.media{
+    background-color: gainsboro;
+}
