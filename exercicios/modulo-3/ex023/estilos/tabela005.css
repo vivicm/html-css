@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    border-collapse:collapse;
+}
+caption{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px;
+}
+ th , td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+ }
+ th{
+     background-color: gainsboro;
+ }
+ .destaque{
+     background-color: greenyellow;
+ }
+ .cnome{
+    background-color: yellow
+}
+ .cgrupo{
+    background-color: greenyellow;
+ }
+ .cprof{
+     background-color: red;
+ }
